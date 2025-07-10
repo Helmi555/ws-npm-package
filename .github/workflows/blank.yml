@@ -8,12 +8,12 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
-  - uses: actions/checkout@v4
-  - name: Run 1 line script
-    run: echo "Hello World"
-  - name: Run 2 lines script
-  run: |
-    echo aslema
-    echo ya hmama
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run 1 line script
+      run: echo "Hello World"
+    - name: Run 2 lines script
+      run: |
+        echo aslema
+        echo ya hmama
